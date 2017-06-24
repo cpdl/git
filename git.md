@@ -152,7 +152,7 @@
     >
     > 注意换行符，在windows下为CRLF,在linux下为LF。这里已经帮你转换过。
     ```shell
-    # 命令： git add <file>
+    # 命令： git add <file> .多个文件 ：可用路径加点的方式代替。如static目录下：git add static/.
     git add new.txt
     ```
 
